@@ -101,8 +101,23 @@ p {
 .top-content {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin-bottom: 20px;
+    margin-bottom:20px;
+    border-bottom: 1px dashed black;
+    padding:1% 1% 2%;
+}
+.about-middle-content{
+    display:flex;
+    justify-content: space-around;
+  
+}
+.middle-content-left{
+    padding-bottom:2%;
+    margin:2%;
+    border-bottom: 1px dashed black;
+}
+.middle-content-right{
+    padding-bottom:2%;
+    margin:2%;
     border-bottom: 1px dashed black;
 }
 
@@ -143,6 +158,21 @@ p {
     display: flex;
     margin: 0 2% 20px;
     justify-content: space-around;
+}
+.about-bottom-content{
+    display:flex;
+    justify-content: space-around;
+  
+}
+.bottom-content-left{
+    padding-bottom:2%;
+    margin:0% 2% 0%;
+    border-bottom: 1px dashed black;
+}
+.bottom-content-right{
+    padding-bottom:2%;
+    margin:0% 2% 0%;
+    border-bottom: 1px dashed black;
 }
 
 .bottom-content .text-container {
