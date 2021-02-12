@@ -83,14 +83,18 @@ html, body {
 
 
 
-h1, h2, h3, h4, h5 {
+h1, h2, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
 }
+h3{
+    padding:10px 0;
+}
 
 p {
     line-height: 1.4;
+    margin-bottom:10px;
 }
 
 .container {
@@ -104,6 +108,18 @@ p {
     margin-bottom:20px;
     border-bottom: 1px dashed black;
     padding:1% 1% 2%;
+}
+#learnmore{
+    padding:1.5% 3%;
+    border:1px solid rgb(131, 131, 131);
+    border-radius: 8px;
+    text-decoration: none;
+    font-family: 'Rubik', sans-serif;
+    color:rgb(131, 131, 131);
+}
+#learnmore:hover{
+    color:black;
+    border:1px solid.black;
 }
 .about-middle-content{
     display:flex;
@@ -143,16 +159,17 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes div {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+.box1 {background:teal;}.box2 {background:gold;}.box3 {background:cadetblue;}.box4 {background:coral;}.box5 {background:crimson;}
+.box6 {background:forestgreen;}.box7 {background:darkorchid;}.box8 {background:hotpink;}.box9 {background:indigo;}.box10 {background:dodgerblue;}
 
 .bottom-content {
     display: flex;
@@ -200,4 +217,7 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+.letswork{
+    margin:2%;
 }
