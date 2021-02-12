@@ -55,6 +55,33 @@ html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
 }
+.navbarwithlogo{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+.navbarwithlogo a{
+    padding:3% 0% 0%;
+    text-decoration: none;
+    color:rgb(131, 131, 131);
+    
+}
+.navbarwithlogo a:hover{
+    text-decoration: none;
+    color:black;
+} 
+#jumbo{
+    margin:2% 0%;
+}
+
+
+
+
+
+
+
+
 
 h1, h2, h3, h4, h5 {
     font-size: 18px;
